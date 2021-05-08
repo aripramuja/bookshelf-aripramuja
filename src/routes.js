@@ -1,4 +1,8 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable object-curly-newline */
+/* eslint-disable linebreak-style */
+/* eslint-disable import/newline-after-import */
+/* eslint-disable linebreak-style */
 /* eslint-disable max-len */
 /* eslint-disable linebreak-style */
 /* eslint-disable object-curly-spacing */
@@ -20,17 +24,17 @@ const routes = [
   },
   {
     method: "GET",
-    path: "/books/{id}",
+    path: "/books/{bookId}",
     handler: getBooksDetailHandler,
   },
   {
     method: "PUT",
-    path: "/books/{id}",
+    path: "/books/{bookId}",
     handler: editBookByIdHandler,
   },
   {
     method: "DELETE",
-    path: "/books/{id}",
+    path: "/books/{bookId}",
     handler: deleteBookByIdHandler,
   },
 ];
